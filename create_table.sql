@@ -1,23 +1,24 @@
 create table outdoor_detail(
     activity_id int NOT NULL,
     name varchar(100),
-    area varchar(100),
+    area varchar(15),
     address varchar(100),
+    PRIMARY KEY (activity_id)
+);
+
+create table indoor_detail(
+    activity_id int NOT NULL,
+    name varchar(100) NOT NULL,
+    address varchar(100) NOT NULL,
+    opening_hours varchar(100) NOT NULL,
+    phone varchar(100) NOT NULL,
+    area varchar(15) NOT NULL,
     PRIMARY KEY (activity_id)
 );
 
 create table outdoor_rating(
     activity_id int NOT NULL,
     rating float,
-    PRIMARY KEY (activity_id)
-);
-
-create table indoor_detail(
-    activity_id int NOT NULL,
-    name varchar(100),
-    address varchar(100),
-    opening_hours varchar(100),
-    phone varchar(100),
     PRIMARY KEY (activity_id)
 );
 
