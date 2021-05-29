@@ -1,0 +1,2 @@
+select area from indoor_detail where activity_id>4200 and activity_id<4300;
+
