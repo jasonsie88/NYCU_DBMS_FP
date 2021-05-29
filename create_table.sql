@@ -1,8 +1,10 @@
 create table outdoor_detail(
     activity_id int NOT NULL,
-    name varchar(100),
-    area varchar(15),
-    address varchar(100),
+    name varchar(100) NOT NULL,
+    area varchar(15) NOT NULL,
+    address varchar(100) NOT NULL,
+    phone varchar(100) NOT NULL,
+    opening_hours varchar(100) NOT NULL,
     PRIMARY KEY (activity_id)
 );
 
