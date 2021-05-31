@@ -11,10 +11,10 @@ create table outdoor_detail(
 create table indoor_detail(
     activity_id int NOT NULL,
     name varchar(100) NOT NULL,
-    address varchar(100) NOT NULL,
-    opening_hours varchar(100) NOT NULL,
-    phone varchar(100) NOT NULL,
     area varchar(15) NOT NULL,
+    address varchar(100) NOT NULL,
+    phone varchar(100) NOT NULL,
+    opening_hours varchar(100) NOT NULL,
     PRIMARY KEY (activity_id)
 );
 
