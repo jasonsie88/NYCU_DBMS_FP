@@ -1,2 +1,0 @@
-select area from indoor_detail where activity_id=4250;
-
